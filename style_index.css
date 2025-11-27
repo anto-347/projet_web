@@ -41,6 +41,8 @@ article {
     grid-row-start: 2;
     text-align: center;
     padding: 5rem;
+    background-color: var(--main-color);
+    border-radius: 2rem;
 }
 
 nav {
