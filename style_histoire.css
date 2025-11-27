@@ -32,5 +32,5 @@ img{
     grid-row: span 4 / span 4;
     grid-column-start: 3;
     grid-row-start: 2;
-    width:10px;
+    width:100%;
 }
