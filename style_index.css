@@ -13,7 +13,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  color: var(--second-color);
+  color: black;
   background-image: url("https://intelcorp.scene7.com/is/image/intelcorp/language-icon-lvl-2-abstract-bg:1920-1080?wid=864&hei=486&fmt=webp-alpha");
   background-size: cover;
   background-position: center center;
@@ -27,6 +27,12 @@ body {
 
 header {
   grid-column: span 5 / span 5;
+  padding: 2rem;
+  background-color: var(--main-color);
+  opacity: 0.4;
+  border-radius: 2rem;
+  justify-self: center;
+  text-align: center;
 }
 
 article {
