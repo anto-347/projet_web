@@ -19,3 +19,6 @@ body {
   grid-template-rows: repeat(5, 1fr);
   gap: 8px;
 }
+header{
+   grid-column: span 5 / span 5;
+}
