@@ -1,1 +1,17 @@
 @import url('https://intelcorp.scene7.com/is/image/intelcorp/language-icon-lvl-2-abstract-bg:1920-1080?wid=864&hei=486&fmt=webp-alpha');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --main-color: #1c4194;
+  --second-color: #DEE7FF;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--second-color);
+}
