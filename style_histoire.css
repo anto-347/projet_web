@@ -22,3 +22,14 @@ body {
 header{
    grid-column: span 5 / span 5;
 }
+article{
+   grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-row-start: 2;
+}
+img{
+   grid-column: span 3 / span 3;
+    grid-row: span 4 / span 4;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
