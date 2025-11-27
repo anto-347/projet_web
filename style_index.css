@@ -1,1 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --main-color: #1c4194;
+  --second-color: #DEE7FF;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--second-color);
+  background-image: url("https://intelcorp.scene7.com/is/image/intelcorp/language-icon-lvl-2-abstract-bg:1920-1080?wid=864&hei=486&fmt=webp-alpha");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 8px;
+}
+
+header {
+  grid-column: span 5 / span 5;
+}
+
+article {
+  grid-column: span 4 / span 4;
+  grid-row: span 3 / span 3;
+  grid-row-start: 2;
+}
+
+nav {
+  grid-row: span 3 / span 3;
+  grid-column-start: 5;
+  grid-row-start: 2;
+}
+
+footer {
+  grid-column: span 5 / span 5;
+  grid-row-start: 5;
+}
