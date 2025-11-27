@@ -14,5 +14,10 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   color: var(--second-color);
+  background-image: url("https://intelcorp.scene7.com/is/image/intelcorp/language-icon-lvl-2-abstract-bg:1920-1080?wid=864&hei=486&fmt=webp-alpha");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
