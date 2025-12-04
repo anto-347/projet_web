@@ -29,7 +29,8 @@ header {
 
 td, th {
   padding: 1rem;
-  border: 1px black solid;
+  border: 2px black solid;
+  border-radius: 0.3rem;
 }
 
 td {
