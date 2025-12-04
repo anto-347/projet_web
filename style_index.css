@@ -36,9 +36,10 @@ header {
 main {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
     background-color: var(--main-color);
+    height: 60%;
 }
 
 article {
