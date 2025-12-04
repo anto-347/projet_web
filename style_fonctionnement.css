@@ -30,5 +30,8 @@ header {
 td, th {
   padding: 1rem;
   border: 1px black solid;
-  width: 100px;
+}
+
+td {
+    width: 300px;
 }
