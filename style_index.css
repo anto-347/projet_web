@@ -19,14 +19,13 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 header {
-    grid-column: span 5 / span 5;
     padding: 2rem 5rem 2rem 5rem;
     background-color: var(--main-color);
     opacity: 0.4;
@@ -35,23 +34,19 @@ header {
     text-align: center;
 }
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
 article {
-    grid-column: span 4 / span 4;
-    grid-row: span 3 / span 3;
-    grid-row-start: 2;
     text-align: center;
     padding: 5rem;
     background-color: var(--main-color);
     border-radius: 2rem;
 }
 
-nav {
-    grid-row: span 3 / span 3;
-    grid-column-start: 5;
-    grid-row-start: 2;
-}
 
-footer {
-    grid-column: span 5 / span 5;
-    grid-row-start: 5;
-}
+
