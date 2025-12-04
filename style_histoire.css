@@ -19,16 +19,16 @@ body {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
     gap: 1rem;
-}
-  font-family: "Poppins", sans-serif;
-  color: var(--second-color);
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  gap: 8px;
+
 }
 header{
    grid-column: span 5 / span 5;
+   padding: 2rem ;
+   background-color: var(--main-color);
+   opacity: 0.7;
+   border-radius: 2rem;
+   text-align: center;
+}
 }
 article{
    grid-column: span 2 / span 2;
