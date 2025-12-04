@@ -26,11 +26,10 @@ body {
 }
 
 header {
-    padding: 2rem 5rem 2rem 5rem;
+    padding: 2rem;
     background-color: var(--main-color);
-    opacity: 0.4;
+    opacity: 0.7;
     border-radius: 2rem;
-    justify-self: center;
     text-align: center;
 }
 
@@ -39,6 +38,7 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    background-color: var(--main-color);
 }
 
 article {
@@ -46,7 +46,22 @@ article {
     padding: 5rem;
     background-color: var(--main-color);
     border-radius: 2rem;
+    width: 60%;
+    height: 100%;
 }
 
+nav {
+    text-align: center;
+    padding: 5rem;
+    background-color: var(--main-color);
+    border-radius: 2rem;
+    width: 40%;
+    height: 100%;
+}
 
-
+footer {
+    position: fixed;
+    bottom: 2rem;
+    padding: 2rem;
+    width: 100%;
+}
