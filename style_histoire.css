@@ -15,30 +15,16 @@ body {
     font-family: "Poppins", sans-serif;
     color: var(--second-color);
     background-color: var(--main-color);
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 1rem;
-
+   
+   
 }
 header{
-   grid-column: span 5 / span 5;
+ 
    padding: 2rem ;
    background-color: var(--main-color);
    opacity: 0.7;
    border-radius: 2rem;
    text-align: center;
 }
-}
-article{
-   grid-column: span 2 / span 2;
-    grid-row: span 4 / span 4;
-    grid-row-start: 2;
-}
-img{
-   grid-column: span 3 / span 3;
-    grid-row: span 4 / span 4;
-    grid-column-start: 3;
-    grid-row-start: 2;
-    width:100%;
-}
+
+
