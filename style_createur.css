@@ -14,6 +14,10 @@ body {
     font-family: "Poppins", sans-serif;
     color: var(--second-color);
     background-color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
 }
 img{
     width:200px;
@@ -21,4 +25,13 @@ img{
 }
 td{
     border:1px black solid;
+    padding: 2rem;
+}
+header{
+ 
+   padding: 2rem ;
+   background-color: var(--main-color);
+   opacity: 0.7;
+   border-radius: 2rem;
+   text-align: center;
 }
