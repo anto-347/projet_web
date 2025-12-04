@@ -24,9 +24,10 @@ img{
     
 }
 td{
-    border:1px black solid;
+    border:3px black solid;
     padding: 2rem;
-    background-color:#DAE3F2;
+    background-color:#6B82B5;
+    color:black;
 }
 header{
  
