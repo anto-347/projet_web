@@ -36,3 +36,10 @@ header{
    border-radius: 2rem;
    text-align: center;
 }
+article{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap:2rem;
+}
