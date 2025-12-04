@@ -26,5 +26,9 @@ header{
    border-radius: 2rem;
    text-align: center;
 }
+article{
+  text-align: center;
+   margin: 2rem;
+}
 
 
