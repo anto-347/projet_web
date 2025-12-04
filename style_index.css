@@ -61,7 +61,7 @@ nav {
     height: 100%;
 }
 
-nav li {
+nav li a {
     color: black;
     text-decoration: none;
 }
