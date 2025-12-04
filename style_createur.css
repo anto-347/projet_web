@@ -43,4 +43,5 @@ article{
   justify-content: center;
   flex-direction: row;
   gap:2rem;
+  margin:3rem;
 }
