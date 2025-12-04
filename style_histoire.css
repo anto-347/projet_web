@@ -12,10 +12,13 @@ html {
 }
 
 body {
-    font-family: "Poppins", sans-serif;
-    color: var(--second-color);
-    background-color: var(--main-color);
-   align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: var(--second-color);
+  background-color: var(--main-color);
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
    
 }
 header{
@@ -31,5 +34,6 @@ article{
    margin: 2rem;
 }
 
-
-
+img {
+  border-radius: 2rem;
+}
