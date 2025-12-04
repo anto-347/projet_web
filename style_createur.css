@@ -10,3 +10,11 @@ html {
     --main-color: #1c4194;
     --second-color: #DEE7FF;
 }
+body {
+    font-family: "Poppins", sans-serif;
+    color: var(--second-color);
+    background-color: var(--main-color);
+}
+img{
+    width:100px
+}
