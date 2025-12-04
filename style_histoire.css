@@ -15,7 +15,7 @@ body {
     font-family: "Poppins", sans-serif;
     color: var(--second-color);
     background-color: var(--main-color);
-   
+   align-items: center;
    
 }
 header{
@@ -30,8 +30,6 @@ article{
   text-align: center;
    margin: 2rem;
 }
-img{
-  margin:0 auto 0 auto;
-}
+
 
 
