@@ -62,7 +62,7 @@ nav {
 }
 
 nav li a {
-    color: black;
+    color: var(--second-color);
     text-decoration: none;
 }
 
