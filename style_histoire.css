@@ -14,11 +14,7 @@ html {
 body {
     font-family: "Poppins", sans-serif;
     color: var(--second-color);
-    background-color:#1c4194;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: var(--main-color);
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
