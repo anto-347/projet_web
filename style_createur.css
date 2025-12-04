@@ -16,5 +16,9 @@ body {
     background-color: var(--main-color);
 }
 img{
-    width:100px
+    width:200px;
+    
+}
+td{
+    border:1px black solid;
 }
