@@ -35,5 +35,6 @@ article{
 }
 
 img {
-  border-radius: 2rem;
+  border-radius: 3rem;
+  width:200px;
 }
