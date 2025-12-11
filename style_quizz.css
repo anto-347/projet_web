@@ -14,4 +14,22 @@ body {
     font-family: "Poppins", sans-serif;
     color: var(--second-color);
     background-color: var(--main-color);
+    padding: 2rem;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+button {
+    border: none;
+    padding: 1rem 1.3rem;
+    border-radius: 8px 8px 15px #0A2159;
+}
+
+.response {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transition: transform(-50%, -50%);
 }
