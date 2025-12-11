@@ -47,6 +47,7 @@ nav ul li {
 nav li a {
     color: var(--second-color);
     text-decoration: none;
+    transition: 500ms ease;
 }
 
 a:hover {
