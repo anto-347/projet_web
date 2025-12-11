@@ -13,6 +13,7 @@ html {
 
 body {
   background-color: var(--main-color);
+  font-family: 'Poppins', sans-serif;
   color: var(--second-color);
   display: flex;
   align-items: center;
