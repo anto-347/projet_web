@@ -36,6 +36,7 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
 }
 
 nav li a {
@@ -53,6 +54,7 @@ main {
     border-radius: 2rem;
     gap: 3rem;
     padding: 3rem;
+    margin-top: 5rem;
 }
 
 article {
