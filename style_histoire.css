@@ -31,7 +31,8 @@ header{
 article{
   text-align: center;
    margin: 2rem;
-  padding:3rem
+  padding:3rem;
+  font-size:22px;
 }
 
 img {
