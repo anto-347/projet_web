@@ -31,10 +31,10 @@ header{
 article{
   text-align: center;
    margin: 2rem;
-  padding:2rem
+  padding:3rem
 }
 
 img {
-  border-radius: 3rem;
-  width:500px;
+  border-radius: 2rem;
+  width:600px;
 }
