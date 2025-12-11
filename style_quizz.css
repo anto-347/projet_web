@@ -38,6 +38,8 @@ button {
 button:hover {
     transform: translateY(-7px);
     box-shadow: 6px 6px 10px whitesmoke;
+    border: 1px whitesmoke solid;
+    background-color: var(--main-color); 
 }
 
 .response {
