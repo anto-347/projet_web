@@ -40,8 +40,7 @@ nav ul {
 }
 
 nav ul li {
-    text-decoration: none;
-    list-decoration: none;
+    list-style-type: none;
     margin: 0 1rem 0 1rem;
 }
 
