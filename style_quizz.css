@@ -15,6 +15,7 @@ body {
     color: var(--second-color);
     background-color: var(--main-color);
     padding: 2rem;
+    gap: 1.5rem;
 }
 
 h1, h3 {
@@ -24,7 +25,8 @@ h1, h3 {
 button {
     border: none;
     padding: 1rem 1.3rem;
-    border-radius: 8px 8px 15px #0A2159;
+    box-shadow: 8px 8px 15px #0A2159;
+    border-radius: 2rem;
 }
 
 .response {
