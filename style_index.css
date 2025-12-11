@@ -37,6 +37,11 @@ nav ul {
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    flex-direction: row;
+}
+
+nav ul li {
+    text-decoration: none;
 }
 
 nav li a {
