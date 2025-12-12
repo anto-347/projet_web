@@ -39,11 +39,14 @@ img {
   border-radius: 2rem;
   width:600px;
 }
-nav {
+nav {display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     background-color: var(--main-color);
     opacity: 0.7;
     padding: 2rem;
+   
 }
 nav ul {
     display: flex;
