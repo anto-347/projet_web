@@ -39,7 +39,8 @@ img {
   border-radius: 2rem;
   width:600px;
 }
-nav {display: flex;
+nav {
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
