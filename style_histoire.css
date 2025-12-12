@@ -42,7 +42,7 @@ img {
 nav {
     width: 100%;
     background-color: var(--main-color);
-    background: red;
+    opacity: 0.7;
     padding: 2rem;
 }
 
