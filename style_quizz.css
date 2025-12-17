@@ -16,6 +16,7 @@ body {
     background-color: var(--main-color);
     padding: 2rem;
     gap: 1.5rem;
+    overflow-x: hidden;
 }
 
 h1, h3 {
@@ -54,11 +55,11 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     background-color: #50AAE5;
     opacity: 0.7;
     padding: 2rem;
-   
+    transform: translateX(-2rem);
 }
 nav ul {
     display: flex;
