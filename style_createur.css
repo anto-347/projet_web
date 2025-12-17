@@ -71,3 +71,8 @@ nav li a {
     color: var( --main-color);
     text-decoration: none;
     transition: 500ms ease;
+}
+
+a:hover {
+    color: black;
+}
