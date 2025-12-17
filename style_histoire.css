@@ -20,7 +20,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-   
+  padding-bottom: 3rem;
 }
 header{
    padding: 2rem ;
