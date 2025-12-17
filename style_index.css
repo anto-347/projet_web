@@ -73,7 +73,7 @@ article {
 
 footer {
     position: fixed;
-    bottom: 2rem;
+    bottom: 0;
     padding: 2rem;
     width: 100%;
 }
